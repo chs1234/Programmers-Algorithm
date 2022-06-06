@@ -23,6 +23,6 @@ public class Solution {
     }
 
 	public static double solution_ArrayStream(int[] arr) {
-	    return (double) Arrays.stream(arr).average().orElse(0);
+	    return (double) Arrays.stream(arr).average().getAsDouble();
 	}
 }
